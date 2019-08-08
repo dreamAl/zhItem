@@ -1,0 +1,22 @@
+@charset "utf-8"; 
+body{
+background-color:#fff;
+font-size:16px;
+}
+
+$basefontsize:12px;
+
+body{
+    background-color:#fff;
+    font-size:$basefontsize+2;
+    }
+div{
+        font-size:$basefontsize+5; 
+    }
+    p{
+        font-size:$basefontsize - 1; 
+    }
+    body{
+        background-color:#000;
+        font-size:$basefontsize+2;
+        }

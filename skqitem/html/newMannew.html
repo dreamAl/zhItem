@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../css/newMan.css">
+<title>商品详情</title>
+</head>
+<body>
+	<div class="manBox">
+		<div class="manBox_left">
+			<div class="manIcon"><a href="#" class="manIcon_one" title="男子"></a>
+				<a href="#" class="manIcon_two" title="男子">男子</a></div>
+				<div><span class="click_check">点击分类筛选</span></div>
+				<div class="colorBox"><h3 class="color_group">颜色</h3>
+					<span class="colorAdd">
+						<i class="adds"></i>   <!-- 加 -->
+						<i class="addss"></i></span>
+				</div>
+					<div class="color_uls ">
+					<ul class="ulsColor ">
+						<a href="#"><li class="ulsColorList" style="background: #000"></li></a>
+						<a href="#"><li class="ulsColorList" style="background: #0000ff"></li></a>
+						<a href="#"><li class="ulsColorList" style="background:#0063ba"></li></a>
+						<a href="#"><li class="ulsColorList" style="background:#0e1e53"></li></a>
+						<a href="#"><li class="ulsColorList" style="background:#1E90FF"></li></a>
+						<a href="#"><li class="ulsColorList" style="background:#424515"></li></a>
+						<a href="#"><li class="ulsColorList" style="background:#544a27"></li></a>
+						<a href="#"><li class="ulsColorList" style="background:#8cc63f"></li></a>
+						<a href="#"><li class="ulsColorList" style="background:#949494"></li></a>
+						<a href="#"><li class="ulsColorList" style="background:#990202"></li></a>
+						<a href="#"><li class="ulsColorList" style="background:#a22d91"></li></a>
+						<a href="#"><li class="ulsColorList" style="background:#C0FF3E"></li></a>
+						<a href="#"><li class="ulsColorList" style="background:#d52e84"></li></a>
+						<a href="#"><li class="ulsColorList" style="background:#eee2c6"></li></a>
+						<a href="#"><li class="ulsColorList" style="background:#fce662"></li></a>
+						<a href="#"><li class="ulsColorList" style="background:#ff8300"></li></a>
+						<a href="#"><li class="ulsColorList" style="background:#FFD700"></li></a>
+						<a href="#"><li class="ulsColorList" style="background:#FFFF00"></li></a>
+						<a href="#"><li class="ulsColorList" style="background:#FFFFF0"></li></a>
+						<a href="#"><li class="ulsColorList" style="background:#ffffff"></li></a>
+					</ul> 
+				</div>
+				<div class="colorBorder"></div>
+			<div class="colorBox "><h3 class="color_group">系列</h3>
+					<span class="colorAdd">
+						<i class="sums "></i>
+						<i class="sumss "></i></span>
+		</div>
+		<div class="serise color_ul">
+			<ul class="seriseUl">
+				<a href="#"><li><i class="glyphicon glyphicon-unchecked"></i>&nbsp;&nbsp;&nbsp;&nbsp;<b>BURST</b></li></a>
+				<a href="#"><li><i class="glyphicon glyphicon-unchecked"></i>&nbsp;&nbsp;&nbsp;&nbsp;<b>ENERGY LIGHTS</b></li></a>
+				<a href="#"><li><i class="glyphicon glyphicon-unchecked"></i>&nbsp;&nbsp;&nbsp;&nbsp;<b>SANDALS</b></li></a>
+				<a href="#"><li><i class="glyphicon glyphicon-unchecked"></i>&nbsp;&nbsp;&nbsp;&nbsp;<b>ON THE GO</b></li></a>
+				<a href="#"><li><i class="glyphicon glyphicon-unchecked"></i>&nbsp;&nbsp;&nbsp;&nbsp;<b>MARK NASON</b></li></a>
+				<a href="#"><li><i class="glyphicon glyphicon-unchecked"></i>&nbsp;&nbsp;&nbsp;&nbsp;<b>D'LITES</b></li></a>
+				<a href="#"><li><i class="glyphicon glyphicon-unchecked"></i>&nbsp;&nbsp;&nbsp;&nbsp;<b>GO RUN</b></li></a>
+				<a href="#"><li><i class="glyphicon glyphicon-unchecked"></i>&nbsp;&nbsp;&nbsp;&nbsp;<b>GO WALK</b></li></a>
+				<a href="#"><li><i class="glyphicon glyphicon-unchecked"></i>&nbsp;&nbsp;&nbsp;&nbsp;<b>CASUAL</b></li></a>
+				<a href="#"><li><i class="glyphicon glyphicon-unchecked"></i>&nbsp;&nbsp;&nbsp;&nbsp;<b>SPORT</b></li></a>
+			</ul>
+		</div>
+		<div class="colorBorder"></div>			
+		</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$(".addss").click(function(){
+			$(this).hide()
+			$(".adds").show()
+			$(".color_uls").hide()
+		})	
+	});
+	$(function(){
+		$(".adds").click(function(){
+			$(this).hide()
+			$(".addss").show() 
+			$(".color_uls").show()
+		})	
+	});
+		$(function(){
+		$(".sums").click(function(){
+			$(this).hide()
+			$(".sumss").show()
+			$(".seriseUl").show()
+		})	
+	});
+	$(function(){
+		$(".sumss").click(function(){
+			$(this).hide()
+			$(".sums").show()
+			$(".seriseUl").hide()
+		})	
+	});
+</script>

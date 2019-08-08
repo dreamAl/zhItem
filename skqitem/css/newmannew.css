@@ -1,0 +1,126 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,hr,input,td,select,textarea{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+} 
+ul,ol{ 
+	list-style: none;
+}
+img{
+	border:none; 
+} 
+.manBox{
+	width: 100%;
+	height:632px;
+	background: pink;
+}
+.manBox_left{
+	width: 251px;
+	height: 632px;
+	background: deeppink;
+	padding-left: 24px;
+}
+.manIcon_one{
+	display: block;
+	width: 15px;
+	height:15px;
+	/*border:1px solid black;*/
+	background-image: url(../img/spritecow.png);
+	background-position: -31px -5px;
+	float:left;
+	padding-left: 10px;
+	margin-top:4px;
+}
+.manIcon_two{
+	font-size: 15px;
+	color:black;
+}
+.click_check{
+	display: block;
+	font-size: 20px;
+	color:black;
+	font-weight: 700; 
+	margin-top: 40px;
+}
+.colorBox{
+	width: 240px;
+	height:21px;
+	/*background: green;*/
+	/*margin-left: -9px;*/
+}
+.color_group{
+font-size: 16px;
+color:#313131;
+}
+.colorAdd{
+	display: flex;
+	float: right;
+	/*display: block;*/
+	width: 30PX;
+	height: 14PX;
+	margin-top: -18px;
+	/*border: 1px solid white;*/
+}
+.add{
+	display: block;
+	font-size: 20px;
+	float:right;
+	width: 12px;
+	height:12px;
+	margin-right: 15px;
+	margin-top: -14px;
+}
+.color_uls{
+	width: 227px;
+	height:180px;
+	/*background: white;*/
+	border-bottom:1px solid #c5c5c5;
+	display: none;
+}
+.ulsColor{
+	display: flex;
+	flex-wrap: wrap;
+}
+.ulsColorList{
+	width: 22px;
+	height:22px;
+	border-radius:50%;
+	border:1px solid #d2cdcd;
+	margin: 7px;
+}
+.seriseBox{
+	width: 220px;
+	height:21px;
+	margin-top: 6px;
+}
+.serise_group{
+font-size: 16px;
+color:#313131;
+}
+.seriseAdd{
+	display: flex;
+	float: right;
+	width: 30PX;
+	height: 14PX;
+	margin-top: -18px;
+}
+.seriseUl{
+	margin-top: 10px;
+	width: 227px;
+	height: 306px;
+	/*background:yellow;*/
+	border-bottom:1px solid #c5c5c5;
+}
+.seriseUl b{
+	font-size: 14px;
+	color:#313131;
+	font-weight: 100;
+}
+.seriseUl i{font-size: 16px;color:#cacbcb;}
+.seriseUl a:hover{text-decoration: none;}
+.seriseUl li{margin-top:10px;}

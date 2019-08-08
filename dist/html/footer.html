@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>foot</title>
+	<link rel="stylesheet" href="../css/footer.css">
+</head>
+<body>
+		<!-- foot1 -->
+	<div class="foots">
+		<div class="foot1">
+			<div class="v1">
+				<span></span>
+				<a href="#">会员</a>
+			</div>
+			<div class="v2">
+				<span></span>
+				<a href="#">门店</a>
+			</div>		
+	</div><hr>
+		<div class="foot3">
+				<i>我们的支付方式</i>
+				<img src="../img/wechatpay_pc.png" alt="">
+				<img src="../img/alipay_pc.png" alt="">
+				<img src="../img/unionpay_pc.png" alt="">
+				<div class="foot5">
+			<a href="#"><img src="../img/cn.png" alt="">中国</a>
+			<h3 class="guanzhu">关注我们</h3>
+			<div class="foot6">	
+				<a href="#"><a href="#"><img src="../img/weibo.png" alt=""></a>
+				<ul class="wx">	
+					<li class="cx"><a href="#"><img src="../img/wechat.png" alt=""></a></li>	
+					<li class="xiaoshi"><img src="../img/wx.png" alt="" ></li>		
+				</ul>	
+			</div>
+			<h3 class="skq">获取斯凯奇最新资讯</h3>
+			<div class="in">
+				<input type="text" class="txt" style="width: 283px">
+				<!-- <span class="btn"></span> -->
+				<span class="btn"><img src="../img/em.png" alt=""></span>
+			</div>					
+		</div>		
+			<div class="foot4">
+				<ul>	
+					<h3>联系客服</h3>
+					<li><a href="#">团购申请</a></li>
+					<li><a href="#">在线客服</a></li>
+				</ul>
+				<ul>
+					<h3 class="fone">我的账户</h3>
+					<li><a href="#">会员权益</a></li>
+					<li><a href="#">我的信息</a></li>
+					<li><a href="#">我的订单</a></li>
+					<li><a href="#">我的积分</a></li>
+					<li><a href="#">我的优惠券</a></li>
+					<li><a href="#">收件地址</a></li>
+				</ul>
+				<ul>
+					<h3 class="fone">帮助中心</h3>
+					<li><a href="#">订单异常</a></li>
+					<li><a href="#">发票</a></li>
+					<li><a href="#">支付方式</a></li>
+					<li><a href="#">退货说明</a></li>
+					<li><a href="#">找回密码</a></li>
+					<li><a href="#">注册与登录</a></li>
+				</ul>
+				<ul>
+					<h3 class="fone">关于斯凯奇</h3>
+					<li><a href="#">斯凯奇故事</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">免责声明</a></li>
+					<li><a href="#">隐私保护</a></li>
+					<li><a href="#">服务协议</a></li>
+					<li><a href="#">投资关系</a></li>
+					<li><a href="#">招贤纳士</a></li>
+				</ul>			
+			</div>
+		</div>
+	<div class="foot7">
+		<div class="foot8">
+			<span style="float:left">
+				<i>广州市利德丹贸易有限公司保留所有权利</i>
+				<i>粤ICP备12085615号-1 © 2018 SKECHERS,INC.</i>
+			</span>
+			<span style="float:right">
+				<img src="../img/pc_kx.png" alt="">
+				<img src="../img/pc_cx.png" alt="">
+				<img src="../img/pc_ga.png" alt="">
+				<img src="../img/pc_zzN.png" alt="">
+			</span>		
+		</div>
+		<div class="back" onclick="returnTop()" id="btnTop" title="返回顶部"><img src="../img/back.png" style="width:100%; height:100%"></div>
+	</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript">
+	//按钮回顶部
+window.onscroll = function() {
+     scrollFunction()
+ };
+  
+ function scrollFunction() {
+    //console.log(121);
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+         document.getElementById("btnTop").style.display = "block";
+     } else {
+         document.getElementById("btnTop").style.display = "none";
+     }
+ }
+
+ function returnTop() {
+     document.body.scrollTop = 0;
+     document.documentElement.scrollTop = 0;
+ }
+ 	function $(str){
+	if(str.charAt(0)=="#"){
+		return document.getElementById(str.substring(1));
+	}else if(str.charAt(0)=="."){
+		return document.getElementsByClassName(str.substring(1));
+	}else{
+		return document.getElementsByTagName(str);
+	}
+}
+</script>
